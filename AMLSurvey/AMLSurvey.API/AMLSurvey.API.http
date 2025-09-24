@@ -1,0 +1,6 @@
+@AMLSurvey.API_HostAddress = http://localhost:5055
+
+GET {{AMLSurvey.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
