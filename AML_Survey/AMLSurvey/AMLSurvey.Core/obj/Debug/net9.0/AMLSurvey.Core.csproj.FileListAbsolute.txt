@@ -21,3 +21,4 @@ C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurve
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Core\obj\Debug\net9.0\refint\AMLSurvey.Core.dll
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Core\obj\Debug\net9.0\AMLSurvey.Core.pdb
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Core\obj\Debug\net9.0\ref\AMLSurvey.Core.dll
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Core\obj\Debug\net9.0\AMLSurvey.Core.csproj.AssemblyReference.cache

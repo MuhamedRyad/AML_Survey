@@ -185,3 +185,6 @@ C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurve
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\obj\Debug\net9.0\AMLSurve.270B355D.Up2Date
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\obj\Debug\net9.0\AMLSurvey.API.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\obj\Debug\net9.0\ref\AMLSurvey.API.dll
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\bin\Debug\net9.0\Mapster.dll
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\bin\Debug\net9.0\Mapster.Core.dll
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.API\bin\Debug\net9.0\Mapster.DependencyInjection.dll
