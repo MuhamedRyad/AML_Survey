@@ -33,6 +33,14 @@ namespace AMLSurvey.API.Extensions
             // CORS Configuration
             services.AddCustomCors(configuration);
 
+            //connection to db
+                   /* var connectionString = configuration.GetConnectionString("DefaultConnection") ??
+                                              throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+                    services.AddDbContext<ApplicationDbContext>(options =>
+                        options.UseSqlServer(connectionString));
+                   */
+
             // API Versioning
             // services.AddApiVersioning();
 
