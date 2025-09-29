@@ -7,41 +7,51 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 namespace AMLSurvey.Core.Extensions
 {
     public static class DependencyInjection
     {
+
+
+        /// تسجيل كل الـ Core services (Mapster, FluentValidation, Application Services)
         public static IServiceCollection AddCoreServices(this IServiceCollection services)
         {
+            services.AddMapsterConfiguration();
+            services.AddFluentValidationConfiguration();
 
-            services.AddMapsterServices();
-            services.AddFluentValidationConfig();
+            // لو عندك Application Services
+            // services.AddScoped<IStudentService, StudentService>();
 
             return services;
         }
-        private static IServiceCollection AddMapsterServices(this IServiceCollection services)
+
+
+
+        /// إعداد Mapster للـ object mapping
+        private static IServiceCollection AddMapsterConfiguration(this IServiceCollection services)
         {
-            // 1️⃣ إعداد Mapster
             var config = TypeAdapterConfig.GlobalSettings;
-            //config.Scan(Assembly.GetExecutingAssembly()); يسجل كل IRegister في Core
-            config.Scan(typeof(DependencyInjection).Assembly); // Core assembly
+
+            // مسح كل الـ IRegister mappings في الـ Core assembly
+            config.Scan(typeof(DependencyInjection).Assembly);
+
             services.AddSingleton(config);
             services.AddScoped<IMapper, ServiceMapper>();
 
-            // 2️⃣ تسجيل باقي الـ services
-            //services.AddScoped<IStudentService, StudentService>();
-
-           
             return services;
         }
 
-        private static IServiceCollection AddFluentValidationConfig(this IServiceCollection services)
+        
+
+        /// إعداد FluentValidation للـ automatic validation
+        private static IServiceCollection AddFluentValidationConfiguration(this IServiceCollection services)
         {
             services
-                .AddFluentValidationAutoValidation()// تفعيل التحقق التلقائي للـ ModelState
-                .AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly); // Core assembly
-                //.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+                .AddFluentValidationAutoValidation() // Model State Validation تلقائياً
+                .AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
 
             return services;
         }
