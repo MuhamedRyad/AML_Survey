@@ -51,7 +51,7 @@ namespace AMLSurvey.API.Extensions
             app.UseSwaggerUI(c =>
             {
                 // تحديد نقطة النهاية التي ستُستخدم لقراءة وثيقة Swagger
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcommerceWebsite API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "AML Survey API V1");
 
                 // تحديد مسار الواجهة (Swagger UI) - يمكن فتحها على /swagger
                 c.RoutePrefix = "swagger"; // إذا أردت فتحها على الجذر استخدم string.Empty

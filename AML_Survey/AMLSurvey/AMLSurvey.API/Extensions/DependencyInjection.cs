@@ -1,6 +1,7 @@
 
 
 using AMLSurvey.API.Middlewares;
+using AMLSurvey.Core.Extensions;
 using AMLSurvey.Infrastructure.Extensions;
 
 namespace AMLSurvey.API.Extensions
@@ -50,7 +51,7 @@ namespace AMLSurvey.API.Extensions
             return services;
         }
 
-        private static IServiceCollection AddCoreServices(this IServiceCollection services)
+  /*      private static IServiceCollection AddCoreServices(this IServiceCollection services)
         {
             // Business Services
             // services.AddScoped<ISurveyService, SurveyService>();
@@ -67,7 +68,7 @@ namespace AMLSurvey.API.Extensions
             // services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
             return services;
-        }
+        }*/
 
         public static IApplicationBuilder ConfigureMiddleware(this IApplicationBuilder app)
         {

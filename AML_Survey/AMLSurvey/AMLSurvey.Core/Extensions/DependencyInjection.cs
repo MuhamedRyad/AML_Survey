@@ -14,31 +14,32 @@ namespace AMLSurvey.Core.Extensions
 {
     public static class DependencyInjection
     {
+        private static readonly Assembly _coreAssembly = typeof(DependencyInjection).Assembly;
 
+       
 
-        /// تسجيل كل الـ Core services (Mapster, FluentValidation, Application Services)
         public static IServiceCollection AddCoreServices(this IServiceCollection services)
         {
             services.AddMapsterConfiguration();
             services.AddFluentValidationConfiguration();
 
-            // لو عندك Application Services
-            // services.AddScoped<IStudentService, StudentService>();
-
             return services;
         }
 
+        //mapster
+        private static readonly Lazy<TypeAdapterConfig> _mapsterConfig = new(() =>
+        {
+            var config = new TypeAdapterConfig();
+            config.Scan(_coreAssembly);
 
+            config.Compile(); //Precompile mappings for max performance
+            return config;
+        });
 
-        /// إعداد Mapster للـ object mapping
         private static IServiceCollection AddMapsterConfiguration(this IServiceCollection services)
         {
-            var config = TypeAdapterConfig.GlobalSettings;
 
-            // مسح كل الـ IRegister mappings في الـ Core assembly
-            config.Scan(typeof(DependencyInjection).Assembly);
-
-            services.AddSingleton(config);
+            services.AddSingleton(_mapsterConfig.Value);
             services.AddScoped<IMapper, ServiceMapper>();
 
             return services;
@@ -46,12 +47,12 @@ namespace AMLSurvey.Core.Extensions
 
         
 
-        /// إعداد FluentValidation للـ automatic validation
+        // automatic validation
         private static IServiceCollection AddFluentValidationConfiguration(this IServiceCollection services)
         {
             services
                 .AddFluentValidationAutoValidation() // Model State Validation تلقائياً
-                .AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
+                .AddValidatorsFromAssembly(_coreAssembly);  //Cached Assembly
 
             return services;
         }
