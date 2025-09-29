@@ -14,14 +14,34 @@ namespace AMLSurvey.Core.Extensions
     {
         public static IServiceCollection AddCoreServices(this IServiceCollection services)
         {
+
+            services.AddMapsterServices();
+            services.AddFluentValidationConfig();
+
+            return services;
+        }
+        private static IServiceCollection AddMapsterServices(this IServiceCollection services)
+        {
             // 1️⃣ إعداد Mapster
             var config = TypeAdapterConfig.GlobalSettings;
-            config.Scan(Assembly.GetExecutingAssembly()); // يسجل كل IRegister في Core
+            //config.Scan(Assembly.GetExecutingAssembly()); يسجل كل IRegister في Core
+            config.Scan(typeof(DependencyInjection).Assembly); // Core assembly
             services.AddSingleton(config);
             services.AddScoped<IMapper, ServiceMapper>();
 
             // 2️⃣ تسجيل باقي الـ services
             //services.AddScoped<IStudentService, StudentService>();
+
+           
+            return services;
+        }
+
+        private static IServiceCollection AddFluentValidationConfig(this IServiceCollection services)
+        {
+            services
+                .AddFluentValidationAutoValidation()// تفعيل التحقق التلقائي للـ ModelState
+                .AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly); // Core assembly
+                //.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
             return services;
         }

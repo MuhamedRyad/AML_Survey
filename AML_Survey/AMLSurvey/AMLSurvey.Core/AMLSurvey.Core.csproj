@@ -9,9 +9,14 @@
   <ItemGroup>
     <Folder Include="DTOS\Response\" />
     <Folder Include="DTOS\Request\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
     <PackageReference Include="Mapster" Version="7.4.0" />
     <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
   </ItemGroup>

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8Vck0yCTLVE=",
+  "dgSpecHash": "fgLVj59DUHk=",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\AMLSurvey.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
