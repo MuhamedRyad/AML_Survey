@@ -91,19 +91,20 @@ namespace AMLSurvey.API.Extensions
             app.UseAuthentication();
             app.UseAuthorization();
 
+            
             //app.UseExceptionHandler(); built-in middleware
-/*            app.UseMiddleware<ExceptionMiddleware>(); // custom middleware
-*/
-           /* app.UseRateLimiter();
+            /*            app.UseMiddleware<ExceptionMiddleware>(); // custom middleware
+            */
+            /* app.UseRateLimiter();
 
-            app.MapHealthChecks("health", new HealthCheckOptions
-            {
-                ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
-            });
+             app.MapHealthChecks("health", new HealthCheckOptions
+             {
+                 ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+             });
 
-             app.UseHangfireDashboard
-             RecurringJob.AddOrUpdate
-              */
+              app.UseHangfireDashboard
+              RecurringJob.AddOrUpdate
+               */
 
             return app;
         }

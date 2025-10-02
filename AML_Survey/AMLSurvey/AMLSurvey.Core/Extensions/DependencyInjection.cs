@@ -16,8 +16,6 @@ namespace AMLSurvey.Core.Extensions
     {
         private static readonly Assembly _coreAssembly = typeof(DependencyInjection).Assembly;
 
-       
-
         public static IServiceCollection AddCoreServices(this IServiceCollection services)
         {
             services.AddMapsterConfiguration();

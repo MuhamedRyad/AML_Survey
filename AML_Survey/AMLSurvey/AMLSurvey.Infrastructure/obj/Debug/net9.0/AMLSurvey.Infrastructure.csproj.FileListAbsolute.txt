@@ -29,3 +29,5 @@ C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurve
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Infrastructure\obj\Debug\net9.0\refint\AMLSurvey.Infrastructure.dll
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Infrastructure\obj\Debug\net9.0\AMLSurvey.Infrastructure.pdb
 C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Infrastructure\obj\Debug\net9.0\ref\AMLSurvey.Infrastructure.dll
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Infrastructure\bin\Debug\net9.0\AMLSurvey.Infrastructure.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Data\AMLSurvey_MyFirst_Pro\AML_Survey\AMLSurvey\AMLSurvey.Infrastructure\obj\Debug\net9.0\AMLSurvey.Infrastructure.genruntimeconfig.cache

@@ -3,48 +3,88 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\identity\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\identity\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\identity\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\identity\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\config\\auditableentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\config\\auditableentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\models\\corspolicyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\models\\corspolicyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\config\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\amlsurvey.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\amlsurvey.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\config\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\config\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\amlsurvey.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\amlsurvey.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\identity\\applicationrole .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\identity\\applicationrole .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\models\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\models\\auditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\abstractions\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\abstractions\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\models\\corspolicyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\models\\corspolicyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\middlewares\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\abstractions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\abstractions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\amlsurvey.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\amlsurvey.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\amlsurvey.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\amlsurvey.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\amlsurvey.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\amlsurvey.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\abstractions\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\abstractions\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\extensions\\corsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\abstractions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\abstractions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\abstractions\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\amlsurvey.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|solutionrelative:amlsurvey.api\\amlsurvey.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A016957-3733-46C7-9006-15DDD3A0E177}|AMLSurvey.API\\AMLSurvey.API.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -93,36 +121,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
-              "RelativeToolTip": "AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationUser .cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Identity\\ApplicationUser .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationUser .cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Identity\\ApplicationUser .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T22:30:10.952Z",
+              "WhenOpened": "2025-09-29T20:54:08.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T06:35:05.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditableEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\AuditableEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Config\\AuditableEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\AuditableEntityConfiguration.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Config\\AuditableEntityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:31:41.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAIwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T09:29:47.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\Test.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Config\\Test.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\Test.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Config\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:35:16.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Config\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Config\\UserConfiguration.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Config\\UserConfiguration.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:27:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Program.cs",
               "RelativeDocumentMoniker": "AMLSurvey.API\\Program.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Program.cs",
               "RelativeToolTip": "AMLSurvey.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T12:52:43.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "AuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Models\\AuditableEntity.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\Models\\AuditableEntity.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Models\\AuditableEntity.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\Models\\AuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T07:46:47.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationRole .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationRole .cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Identity\\ApplicationRole .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationRole .cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Identity\\ApplicationRole .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:54:08.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.API\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "AMLSurvey.API\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwF4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T08:59:30.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T22:30:10.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CorsPolicyConfig.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Models\\CorsPolicyConfig.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Models\\CorsPolicyConfig.cs",
@@ -130,36 +269,23 @@
               "RelativeToolTip": "AMLSurvey.Core\\Models\\CorsPolicyConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T09:30:58.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T09:30:58.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ResultExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
-              "RelativeToolTip": "AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T18:12:26.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MappingConfig.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Mappings\\MappingConfig.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Mappings\\MappingConfig.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Mappings\\MappingConfig.cs",
               "RelativeToolTip": "AMLSurvey.Core\\Mappings\\MappingConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T22:11:24.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "AMLSurvey.API\\GlobalUsings.cs",
@@ -171,7 +297,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\Abstractions\\ResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T18:12:26.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "GlobalExceptionHandler.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Middlewares\\GlobalExceptionHandler.cs",
               "RelativeDocumentMoniker": "AMLSurvey.API\\Middlewares\\GlobalExceptionHandler.cs",
@@ -179,51 +317,47 @@
               "RelativeToolTip": "AMLSurvey.API\\Middlewares\\GlobalExceptionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T20:56:50.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T20:56:50.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.API\\Extensions\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\DependencyInjection.cs*",
-              "RelativeToolTip": "AMLSurvey.API\\Extensions\\DependencyInjection.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T08:59:30.674Z",
-              "EditorCaption": ""
+              "DocumentIndex": 17,
+              "Title": "AMLSurvey.API.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\AMLSurvey.API.csproj",
+              "RelativeDocumentMoniker": "AMLSurvey.API\\AMLSurvey.API.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\AMLSurvey.API.csproj",
+              "RelativeToolTip": "AMLSurvey.API\\AMLSurvey.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-24T12:42:55.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "SwaggerServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\SwaggerServiceExtensions.cs",
               "RelativeDocumentMoniker": "AMLSurvey.API\\Extensions\\SwaggerServiceExtensions.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\SwaggerServiceExtensions.cs",
               "RelativeToolTip": "AMLSurvey.API\\Extensions\\SwaggerServiceExtensions.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwD0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T12:50:16.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T12:50:16.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "AMLSurvey.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj",
               "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj",
               "RelativeToolTip": "AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-28T10:30:55.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T10:30:55.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "AMLSurvey.Core.csproj",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\AMLSurvey.Core.csproj",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\AMLSurvey.Core.csproj",
@@ -231,12 +365,11 @@
               "RelativeToolTip": "AMLSurvey.Core\\AMLSurvey.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-27T09:54:56.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-27T09:54:56.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "Error.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\Error.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Abstractions\\Error.cs",
@@ -248,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "CorsExtensions.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Extensions\\CorsExtensions.cs",
               "RelativeDocumentMoniker": "AMLSurvey.API\\Extensions\\CorsExtensions.cs",
@@ -260,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\appsettings.json",
               "RelativeDocumentMoniker": "AMLSurvey.API\\appsettings.json",
@@ -272,19 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
-              "RelativeToolTip": "AMLSurvey.Infrastructure\\Extensions\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T09:29:47.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\GlobalUsings.cs",
@@ -296,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\GlobalUsings.cs",
@@ -308,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Abstractions\\Result.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Abstractions\\Result.cs",
@@ -320,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AMLSurvey.API\\Properties\\launchSettings.json",
@@ -332,20 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AMLSurvey.API.csproj",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\AMLSurvey.API.csproj",
-              "RelativeDocumentMoniker": "AMLSurvey.API\\AMLSurvey.API.csproj",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.API\\AMLSurvey.API.csproj",
-              "RelativeToolTip": "AMLSurvey.API\\AMLSurvey.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-24T12:42:55.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
