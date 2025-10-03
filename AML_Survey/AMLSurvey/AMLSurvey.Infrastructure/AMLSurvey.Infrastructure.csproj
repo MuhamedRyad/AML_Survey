@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Data%28repo_dbcontext_unitO%29\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
   <PropertyGroup>

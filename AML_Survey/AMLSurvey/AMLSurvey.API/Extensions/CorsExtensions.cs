@@ -1,6 +1,6 @@
 ﻿
 
-using AMLSurvey.Core.Models;
+using AMLSurvey.Core.Entities;
 
 namespace AMLSurvey.API.Extensions
 {

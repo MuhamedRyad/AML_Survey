@@ -161,7 +161,7 @@ namespace AMLSurvey.Infrastructure.Extensions
 
              // Specific repositories can be added here
              // services.AddScoped<ISurveyRepository, SurveyRepository>();
-             // services.AddScoped<IUserRepository, UserRepository>();
+             // services.AddScoped<IIdentityUserRepository , IdentityUserRepository >();
 
              return services;
          }

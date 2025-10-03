@@ -1,6 +1,4 @@
-﻿
-
-namespace AMLSurvey.Core.Models
+﻿namespace AMLSurvey.Core.Entities
 {
     public class CorsPolicyConfig
     {

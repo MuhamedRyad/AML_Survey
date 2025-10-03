@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AMLSurvey.Core.Models
+namespace AMLSurvey.Core.Entities
 {
     public class AuditableEntity
     {

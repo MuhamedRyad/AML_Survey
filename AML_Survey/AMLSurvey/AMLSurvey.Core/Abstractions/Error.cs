@@ -18,4 +18,6 @@ namespace AMLSurvey.Core.Abstractions
          // readonly static instance of Error
         var e2 = Error.None;*/
     }
+
+
 }

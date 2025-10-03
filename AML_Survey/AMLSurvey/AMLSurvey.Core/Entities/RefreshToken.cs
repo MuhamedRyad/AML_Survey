@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AMLSurvey.Core.Models
+namespace AMLSurvey.Core.Entities
 {
     //[Owned] or  => builder.OwnsMany<RefreshToken>  in userconfigation
     //set navigation(public List<RefreshToken> ) in user

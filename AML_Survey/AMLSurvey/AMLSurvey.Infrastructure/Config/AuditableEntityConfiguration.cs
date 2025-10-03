@@ -1,4 +1,4 @@
-﻿using AMLSurvey.Core.Models;
+﻿using AMLSurvey.Core.Entities;
 using AMLSurvey.Infrastructure.Identity;
 using System;
 using System.Collections.Generic;
