@@ -12,7 +12,11 @@ var app = builder.Build();
 
 // Configure middleware pipeline
 app.ConfigureMiddleware();
+// Map endpoints
 app.MapIdentityEndpoints(); // Map Identity Endpoints after middleware configuration
 app.MapControllers();
+
+// TODO: Health checks
+// app.MapHealthChecks("/health");
 
 app.Run();

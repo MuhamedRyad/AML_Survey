@@ -976,8 +976,10 @@
       "AMLSurvey.Infrastructure/1.0.0": {
         "dependencies": {
           "AMLSurvey.Core": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.9",
-          "Oracle.EntityFrameworkCore": "9.23.90"
+          "Oracle.EntityFrameworkCore": "9.23.90",
+          "System.IdentityModel.Tokens.Jwt": "8.14.0"
         },
         "runtime": {
           "AMLSurvey.Infrastructure.dll": {

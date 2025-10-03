@@ -1,4 +1,4 @@
-
+﻿
 
 using AMLSurvey.API.Middlewares;
 using AMLSurvey.Core.Extensions;
@@ -74,28 +74,36 @@ namespace AMLSurvey.API.Extensions
         {
             var env = app.ApplicationServices.GetRequiredService<IWebHostEnvironment>();
 
-            // ?? Exception Handler should be FIRST!
+            // ✅ Correct middleware order
+            
+            // 1. Exception handling (MUST BE FIRST!)
             app.UseExceptionHandler();
 
+            // 2. HTTPS redirection
+            app.UseHttpsRedirection();
+
+            // 3. CORS (before Authentication)
+            app.UseCustomCors();
+
+            // 4. Swagger (Development only)
             if (env.IsDevelopment())
             {
                 app.UseSwaggerDocumentation();
             }
 
-           /* app.UseSerilogRequestLogging();*/
-
-            app.UseHttpsRedirection();
-
-            //app.UseCors();
-            app.UseCustomCors();
+            // 5. Authentication & Authorization (MUST be in this order!)
             app.UseAuthentication();
             app.UseAuthorization();
 
+            // TODO: Add more middleware
+            // app.UseRateLimiter();
+            // app.UseSerilogRequestLogging();
+
             
-            //app.UseExceptionHandler(); built-in middleware
-            /*            app.UseMiddleware<ExceptionMiddleware>(); // custom middleware
-            */
-            /* app.UseRateLimiter();
+            /*app.UseExceptionHandler(); built-in middleware
+                        app.UseMiddleware<ExceptionMiddleware>(); // custom middleware
+
+
 
              app.MapHealthChecks("health", new HealthCheckOptions
              {

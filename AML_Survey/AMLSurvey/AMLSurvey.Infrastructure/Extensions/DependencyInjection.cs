@@ -1,4 +1,6 @@
 ﻿using AMLSurvey.Infrastructure.Identity;
+using AMLSurvey.Infrastructure.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using Oracle.EntityFrameworkCore.Internal;
+using System.Text;
+using AMLSurvey.Core.Interfaces;
 
 namespace AMLSurvey.Infrastructure.Extensions
 {
@@ -26,7 +32,7 @@ namespace AMLSurvey.Infrastructure.Extensions
 
             // Register repositories and services
             services.AddRepositoryPattern();
-            services.AddCustomInfrastructureServices();
+            //services.AddCustomInfrastructureServices();
 
             return services;
         }
@@ -76,8 +82,10 @@ namespace AMLSurvey.Infrastructure.Extensions
 
         public static IServiceCollection AddAuthConfig(this IServiceCollection services, IConfiguration configuration)
         {
-            // 1️⃣ Configure Identity
+        
+            //✅ 2 Configure Identity
             //AddIdentityApiEndpoints  => endpoints by default will created
+            //services.AddIdentity => custam endpoints
             services.AddIdentity<ApplicationUser, ApplicationRole>(options =>  
             {
                 // Password settings
@@ -102,26 +110,33 @@ namespace AMLSurvey.Infrastructure.Extensions
             .AddDefaultTokenProviders();
 
             // 2️⃣ Authorization Handlers & Policies
-       /*     services.AddTransient<IAuthorizationHandler, PermissionAuthorizationHandler>();
+           /* services.AddTransient<IAuthorizationHandler, PermissionAuthorizationHandler>();
             services.AddTransient<IAuthorizationPolicyProvider, PermissionAuthorizationPolicyProvider>();
+*/
 
-            // 3️⃣ JWT Options
+            // ✅ 1. Configure and validate JwtOptions  and pind with appsetting object
             services.AddOptions<JwtOptions>()
                 .BindConfiguration(JwtOptions.SectionName)
                 .ValidateDataAnnotations()
                 .ValidateOnStart();
 
-            var jwtSettings = configuration.GetSection(JwtOptions.SectionName).Get<JwtOptions>();
+            //✅ 2. TokenService
+            services.AddSingleton<IJwtTokenService, JwtTokenService>();
 
-            // 4️⃣ Authentication
+            // ✅ 3 Authentication                  //SectionName = "Jwt";
+            //.Get<T>  return new object from T and pind
+            //.Bind(T) pind with existing object from T
+            var jwtSettings = configuration.GetSection(JwtOptions.SectionName).Get<JwtOptions>();
+            //add JWT Bearer in Authentication Middleware
             services.AddAuthentication(options =>
             {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; //ازاي نتحقق من الـ user.
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;  //what is the scheme will return error if not verify
             })
             .AddJwtBearer(o =>
             {
                 o.SaveToken = true;
+                o.RequireHttpsMetadata = false; // Enforce HTTPS in production
                 o.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
@@ -134,9 +149,6 @@ namespace AMLSurvey.Infrastructure.Extensions
                 };
             });
 
-            // 5️⃣ JWT Provider (Custom)
-            services.AddSingleton<IJwtProvider, JwtProvider>();*/
-
             return services;
         }
 
@@ -144,23 +156,23 @@ namespace AMLSurvey.Infrastructure.Extensions
         private static IServiceCollection AddRepositoryPattern(this IServiceCollection services)
         {
             // Generic repository pattern
-           /* services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped<IUnitOfWork, UnitOfWork>();*/
+            /* services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            // Specific repositories can be added here
-            // services.AddScoped<ISurveyRepository, SurveyRepository>();
-            // services.AddScoped<IUserRepository, UserRepository>();
+             // Specific repositories can be added here
+             // services.AddScoped<ISurveyRepository, SurveyRepository>();
+             // services.AddScoped<IUserRepository, UserRepository>();
 
-            return services;
-        }
+             return services;
+         }
 
-        private static IServiceCollection AddCustomInfrastructureServices(this IServiceCollection services)
-        {
-            // Infrastructure services
-           /* services.AddScoped<IEmailService, EmailService>();
-              services.AddScoped<IFileService, FileService>();
-              services.AddScoped<IAuditService, AuditService>();
-           */
+         private static IServiceCollection AddCustomInfrastructureServices(this IServiceCollection services)
+         {
+             // Infrastructure services
+            /* services.AddScoped<IEmailService, EmailService>();
+               services.AddScoped<IFileService, FileService>();
+               services.AddScoped<IAuditService, AuditService>();
+            */
 
             // Background services
             // services.AddHostedService<BackgroundTaskService>();
