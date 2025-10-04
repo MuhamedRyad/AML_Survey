@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMLSurvey.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cb69fc2c96a58c8638fac21c7d23ae70e4a2c8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+722a019b95703f480b9d581ac4022d6ee3ee641a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMLSurvey.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMLSurvey.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

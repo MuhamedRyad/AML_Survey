@@ -19,7 +19,8 @@ namespace AMLSurvey.Core.Interfaces
             Task<Result> RevokeRefreshTokenAsync(string token, string refreshToken, CancellationToken cancellationToken = default);
 
         //2-
-       // Task<Result> RegisterAsync(RegisterRequest request, CancellationToken cancellationToken = default);
+         Task<Result> RegisterAsync(RegisterRequest request, CancellationToken cancellationToken = default);
+
        /*     Task<Result> ConfirmEmailAsync(string userId, string token, CancellationToken cancellationToken = default);
             Task<Result> ForgotPasswordAsync(string email, string origin, CancellationToken cancellationToken = default);
             Task<Result> ResetPasswordAsync(ResetPasswordRequest model, CancellationToken cancellationToken = default);

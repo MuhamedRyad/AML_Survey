@@ -11,13 +11,16 @@ namespace AMLSurvey.Infrastructure.Repositories
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-
+        private readonly ApplicationContext _context;
         public IdentityUserRepository (
             UserManager<ApplicationUser> userManager, 
-            SignInManager<ApplicationUser> signInManager)
+            SignInManager<ApplicationUser> signInManager,
+            ApplicationContext context)
+
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _context = context;
         }
 
         public async Task<User?> FindByEmailAsync(string email, CancellationToken cancellationToken = default)
@@ -101,7 +104,7 @@ namespace AMLSurvey.Infrastructure.Repositories
             if (appUser.IsDisabled)
                 return (false, "DisabledUser");
 
-            var result = await _signInManager.PasswordSignInAsync(appUser, password, false, lockoutOnFailure);
+            var result = await _signInManager.PasswordSignInAsync(appUser, password, false, true);
 
             if (result.Succeeded)
                 return (true, null);
@@ -117,19 +120,19 @@ namespace AMLSurvey.Infrastructure.Repositories
 
         public async Task<(bool Success, IEnumerable<string> Roles, IEnumerable<string> Permissions)> GetUserRolesAndPermissionsAsync(string userId, CancellationToken cancellationToken = default)
         {
-           /* var appUser = await _userManager.FindByIdAsync(userId);
+            var appUser = await _userManager.FindByIdAsync(userId);
 
             if (appUser is null)
                 return (false, Enumerable.Empty<string>(), Enumerable.Empty<string>());
 
             var roles = await _userManager.GetRolesAsync(appUser);
 
-            var permissions = await(from r in _context.Roles
-                    join p in _context.RoleClaims on r.Id equals p.RoleId
-                    where roles.Contains(r.Name!)
-                    select p.ClaimValue!)
+            var permissions = await (from r in _context.Roles
+                                     join p in _context.RoleClaims on r.Id equals p.RoleId
+                                     where roles.Contains(r.Name!)
+                                     select p.ClaimValue!)
                 .Distinct()
-                .ToListAsync(cancellationToken);*/
+                .ToListAsync(cancellationToken);
 
             return (true, [], []); //roles, permissions);
         }

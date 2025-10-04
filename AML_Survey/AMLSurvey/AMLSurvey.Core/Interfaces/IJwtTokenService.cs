@@ -11,6 +11,8 @@ namespace AMLSurvey.Core.Interfaces
     {
         (string token, int expiresIn) GenerateToken(TokenGenerationRequest TG_Request); //appuser,IEnumerable<string> roles, IEnumerable<string> permissions
         string? ValidateToken(string token);
+
+
         
     }
 }
