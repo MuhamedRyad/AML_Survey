@@ -116,8 +116,6 @@ namespace AMLSurvey.Infrastructure.Repositories
             return (false, errorCode);
         }
 
-     
-
         public async Task<(bool Success, IEnumerable<string> Roles, IEnumerable<string> Permissions)> GetUserRolesAndPermissionsAsync(string userId, CancellationToken cancellationToken = default)
         {
             var appUser = await _userManager.FindByIdAsync(userId);

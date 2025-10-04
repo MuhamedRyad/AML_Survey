@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\repositories\\oracleuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\repositories\\oracleuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\helpers\\oracleparametersbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\helpers\\oracleparametersbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\repositories\\base\\baseoraclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\repositories\\base\\baseoraclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\repositories\\identityuserrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\repositories\\identityuserrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\validators\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\validators\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.infrastructure\\repositories\\identityuserrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B495E24-2156-4080-B6ED-05A2C1F050A0}|AMLSurvey.Infrastructure\\AMLSurvey.Infrastructure.csproj|solutionrelative:amlsurvey.infrastructure\\repositories\\identityuserrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|solutionrelative:amlsurvey.core\\dtos\\auth\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E72531D-8403-41B1-93C1-65F244DC4D83}|AMLSurvey.Core\\AMLSurvey.Core.csproj|c:\\users\\lenovo\\desktop\\data\\amlsurvey_myfirst_pro\\aml_survey\\amlsurvey\\amlsurvey.core\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,56 +50,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Core\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Interfaces\\IAuthService.cs*",
-              "RelativeToolTip": "AMLSurvey.Core\\Interfaces\\IAuthService.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:48:07.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
-              "RelativeToolTip": "AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T23:03:57.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs*",
-              "RelativeToolTip": "AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Title": "BaseOracleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\Base\\BaseOracleRepository.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Repositories\\Base\\BaseOracleRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\Base\\BaseOracleRepository.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Repositories\\Base\\BaseOracleRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA7wIwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T22:59:54.727Z",
+              "WhenOpened": "2025-10-04T00:10:18.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OracleParametersBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Helpers\\OracleParametersBuilder.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Helpers\\OracleParametersBuilder.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Helpers\\OracleParametersBuilder.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Helpers\\OracleParametersBuilder.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwOMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:10:28.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OracleUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\OracleUserRepository.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Repositories\\OracleUserRepository.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\OracleUserRepository.cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Repositories\\OracleUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:10:39.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdentityUserRepository .cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
+              "RelativeToolTip": "AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:06:09.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Services\\AuthService.cs",
               "RelativeToolTip": "AMLSurvey.Core\\Services\\AuthService.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAADwv7cAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAUwKwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-03T20:59:17.118Z",
               "EditorCaption": ""
@@ -95,6 +120,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:48:07.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\Validators\\RegisterRequestValidator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T23:03:57.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
+              "RelativeToolTip": "AMLSurvey.Core\\DTOS\\Auth\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T22:59:54.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Core\\Interfaces\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Core\\Interfaces\\IJwtTokenService.cs",
@@ -107,20 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IdentityUserRepository .cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
-              "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
-              "RelativeToolTip": "AMLSurvey.Infrastructure\\Repositories\\IdentityUserRepository .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:06:09.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Data\\AMLSurvey_MyFirst_Pro\\AML_Survey\\AMLSurvey\\AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "AMLSurvey.Infrastructure\\Identity\\ApplicationContext.cs",
